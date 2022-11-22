@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../uzay.jpg");
+    background: url("../uzay3.jpg");
     background-size: cover;
 }
 
@@ -30,7 +30,7 @@ body {
 .map {
     width: 480px;
     height: 500px;
-    background: url("../dunya.jpg");
+    background: url("../map.jpg");
     background-size: cover;
     animation: rot 25s linear 0s infinite;
 }
