@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../uzay.jpg");
+    background-size: cover;
+}
+
+.earth {
+    width: 480px;
+    height: 480px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.trick {
+    position: absolute;
+    top: -20px;
+    width: 540px;
+    height: 540px;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 47%, rgba(0, 0, 0, 1) 74%, rgba(0, 0, 0, 1) 100%);
+    background-position: 20px 0;
+}
+
+.map {
+    width: 480px;
+    height: 500px;
+    background: url("../dunya.jpg");
+    background-size: cover;
+    animation: rot 25s linear 0s infinite;
+}
+
+@keyframes rot {
+    from {}
+
+    to {
+        background-position: -1000px 0;
+    }
+}
